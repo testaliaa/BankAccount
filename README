@@ -1,0 +1,7 @@
+This application serves the role of a standard bank teller. 
+Here we have a Bank Account, a Checking Account, and a Savings Account
+Bank Account is serving as the parent class, and Checking Account and Savings Account are inheriting its properties and methods. 
+The Accountable interface serves the purpose of holding the getBalance method, allowing the CreditCard class and BankCustomer class to access the method along with the account classes.
+There are rules in place for the Bank. If all of the Bank Customer's total assets amounts to 25,000 or more, the customer is considered VIP status. 
+The CreditCard class does not inherit from the Bank Account class, but the balance does play a role in determining a bank customer's VIP status. 
+
